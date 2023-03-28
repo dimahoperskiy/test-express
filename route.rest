@@ -1,0 +1,15 @@
+GET http://localhost:3000/promo
+
+###
+
+POST http://localhost:3000/promo
+Content-Type: application/json
+
+{
+  "name": "Promo 1",
+  "description": "win an iPhone"
+}
+
+###
+
+GET http://localhost:3000/promo/641c72a9c49bb0302308c566
